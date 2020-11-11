@@ -1,0 +1,8 @@
+text = "X-DSPAM-Confidence:    0.8475";
+
+f = text.find(":")  # 18
+
+x = float(text[f+1 :])
+
+print(x)
+
